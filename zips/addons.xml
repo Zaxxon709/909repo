@@ -58,7 +58,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.maxql" name="MaxQL" version="99.0.7" provider-name="Zaxxon709">
+<addon id="script.module.maxql" name="MaxQL" version="99.0.8" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -66,8 +66,8 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Max Resolution Editor</summary>
-		<description lang="en_GB">Set supported add-ons to either 1080P or 4K max</description>
+		<summary lang="en_GB">Add-on Filter Editor</summary>
+		<description lang="en_GB">Enable/Disable add-on filters</description>
 		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
 		<language>en</language>
 		<platform>all</platform>
