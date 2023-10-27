@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.maxql" name="MaxQL" version="99.0.9" provider-name="Zaxxon709">
+<addon id="script.module.maxql" name="MaxQL" version="1.0.9" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -17,6 +17,13 @@
 		<website></website> 
 		<email></email>
 		<source></source>
+		<news>
+			1.0.9 - Fixed bug preventing Umbrella 3D from being disabled.
+			1.0.8 - Added support for DV and 3D settings. Added Patriot, Black Lightning and 9-Lives.
+			1.0.7 - Added Coalition and Absolution. Removed The Promise.
+			1.0.6 - Added chains genocide and Quicksilver.
+			1.0.5 - Initial Release. 
+		</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
