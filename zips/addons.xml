@@ -36,7 +36,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.pchger" name="Player Helper" version="99.0.2" provider-name="Zaxxon709">
+<addon id="plugin.program.pchger" name="Player Helper" version="99.0.3" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
