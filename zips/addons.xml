@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.maxql" name="MaxQL" version="99.1.1" provider-name="Zaxxon709">
+<addon id="plugin.program.maxql" name="MaxQL" version="99.1.3" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -19,6 +19,8 @@
 		<email></email>
 		<source></source>
 		<news>
+			1.1.3 - Added afFENity
+			1.1.2 - Added Fen Light
 			1.1.1 - Minor bug fixes and cleanup
 			1.1.0 - Cleaned up code. Changed addonid from script to plugin. Added TheLab, TheLabjr, Dradis, Taz19
 			1.0.9 - Fixed bug preventing Umbrella 3D from being disabled.
@@ -34,7 +36,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.pchger" name="Player Helper" version="99.0.2" provider-name="Zaxxon709">
+<addon id="plugin.program.pchger" name="Player Helper" version="99.0.3" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -53,6 +55,7 @@
 		<email></email>
 		<source></source>
 		<news>
+			99.0.3 - Added Fen Light and afFENity.
 			99.0.2 - Minor bug fixes.
 			99.0.1 - Cleaned up code.
 			99.0.0 - Initial Release.
@@ -95,11 +98,11 @@
 	</extension>
 </addon>
 
-<addon id="script.module.accountmgr" version="99.3.9" name="Account Manager" provider-name="Zaxxon709">
+<addon id="script.module.accountmgr" version="99.4.1" name="Account Manager" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.19.1" />
-            	<import addon="script.module.acctview" version="99.2.5" />
+            	<import addon="script.module.acctview" version="99.2.7" />
 	</requires>
 	<extension point="xbmc.service" library="lib/startup.py" start="startup" />
 	<extension point="xbmc.python.script" library="lib/default.py">
@@ -120,7 +123,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.acctview" name="acctviewer" version="99.2.5" provider-name="Zaxxon709">
+<addon id="script.module.acctview" name="acctviewer" version="99.2.7" provider-name="Zaxxon709">
     <extension point="xbmc.python.pluginsource" library="default.py">
     </extension>
     <extension point="xbmc.python.module" library="resources" />
