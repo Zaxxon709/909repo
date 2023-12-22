@@ -36,7 +36,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.pchger" name="Player Helper" version="99.0.3" provider-name="Zaxxon709">
+<addon id="plugin.program.pchger" name="Player Helper" version="99.0.4" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -55,6 +55,7 @@
 		<email></email>
 		<source></source>
 		<news>
+			99.0.4 - Fixed Fen Light and afFENity players
 			99.0.3 - Added Fen Light and afFENity.
 			99.0.2 - Minor bug fixes.
 			99.0.1 - Cleaned up code.
