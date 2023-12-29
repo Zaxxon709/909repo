@@ -36,7 +36,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.pchger" name="Player Helper" version="99.0.4" provider-name="Zaxxon709">
+<addon id="plugin.program.pchger" name="Player Helper" version="99.0.5" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -55,6 +55,7 @@
 		<email></email>
 		<source></source>
 		<news>
+			99.0.5 - Fixed Base player
 			99.0.4 - Fixed Fen Light and afFENity players
 			99.0.3 - Added Fen Light and afFENity.
 			99.0.2 - Minor bug fixes.
@@ -68,35 +69,54 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.last.played.k19" name="[COLOR aqua]Last Played K19[/COLOR]" version="99.0.3" provider-name="Luis Rodrigues">
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="default.py" />
-	<extension point="xbmc.addon.metadata">
-	<summary lang="en_GB">Last Played</summary>
-	<summary lang="en_US">Last Played</summary>
-	<summary lang="en_AU">Last Played</summary>
-	<summary lang="en_NZ">Last Played</summary>
-		<summary lang="pt_PT">Ultimos Vistos</summary>
-		<summary lang="pt_BR">Ultimos Vistos</summary>
-		<summary lang="sk_sk">Last Played (naposledy videné)</summary>
-		<description lang="en_GB">List of the last movies, episodes and music played, including streaming sources from any addon</description>
-		<description lang="en_US">List of the last movies, episodes and music played, including streaming sources from any addon</description>
-		<description lang="en_AU">List of the last movies, episodes and music played, including streaming sources from any addon</description>
-		<description lang="en_NZ">List of the last movies, episodes and music played, including streaming sources from any addon</description>
-		<description lang="pt_PT">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
-		<description lang="pt_BR">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
-		<description lang="sk_SK">Naposledy prehrávané filmy, seriály a hudba, vrátane streamov z ľubovoľného doplnku</description>
-		<disclaimer lang="en_GB"></disclaimer>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-		<source>https://github.com/5-star/plugin.video.last_played</source>
-		<assets>
-		    <icon>icon.png</icon>
-		    <fanart>fanart.jpg</fanart>
-  </assets>
-	</extension>
+<addon id="plugin.video.fen" name="Fen" provider-name="Tikipeter" version="3.2.17">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.19.1"/>
+    </requires>
+    <extension library="resources/lib/fen.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="resources/lib/service.py" point="xbmc.service"/>
+    <extension library="resources/lib/" point="xbmc.python.module"/>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">Access your content from Furk, Easynews and Debrid Clouds.</summary>
+        <description lang="en">This add-on is intended for advanced Kodi users only. You must own the content of any media you play through this addon.</description>
+        <platform>all</platform>
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.</disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <assets>
+            <icon>resources/media/fen_icon.png</icon>
+            <fanart>resources/media/fen_fanart.png</fanart>
+        </assets>
+        <news>INFO: For latest changes see Changelog within Tools of add-on.</news>
+    </extension>
+</addon>
+
+<addon id="plugin.video.fenlight" name="Fen Light" provider-name="Tikipeter" version="1.0.17">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.19.1"/>
+    </requires>
+    <extension library="resources/lib/fenlight.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="resources/lib/service.py" point="xbmc.service"/>
+    <extension library="resources/lib/" point="xbmc.python.module"/>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">Access your content from Easynews and Debrid Clouds.</summary>
+        <description lang="en">This add-on is intended for advanced Kodi users only. You must own the content of any media you play through this addon. This is an English language only add-on.</description>
+        <platform>all</platform>
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.</disclaimer>
+        <license/>
+        <assets>
+            <icon>resources/media/fenlight_icon.png</icon>
+            <fanart>resources/media/fenlight_fanart.jpg</fanart>
+        </assets>
+        <news>INFO: For latest changes see Changelog within Tools of add-on.</news>
+    </extension>
 </addon>
 
 <addon id="script.module.accountmgr" version="99.4.1" name="Account Manager" provider-name="Zaxxon709">
