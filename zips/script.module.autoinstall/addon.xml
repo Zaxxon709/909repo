@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.autoinstall" name="7o9 AutoInstaller" version="99.0.1" provider-name="Slam, Zaxxon709">
+<addon id="script.module.autoinstall" name="7o9 AutoInstaller" version="99.0.2" provider-name="Slam, Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -19,7 +19,8 @@
 		<email></email>
 		<source></source>
 		<news>
-			99.0.1 - Modded AutoInstaller. Added the ability to create your own list of add-ons to install.
+			99.0.2 - Added afFENity and Fen Light
+			99.0.1 - Added the ability to create your own list of add-ons to install.
 			99.0.0 - Forked AutoInstaller. Initial Release.
 		</news>
 		<assets>
